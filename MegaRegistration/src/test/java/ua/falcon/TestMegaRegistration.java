@@ -47,7 +47,7 @@ public class TestMegaRegistration {
     	password.sendKeys("**********"); 
     	
     	WebElement password2 = driver.findElement(By.id("register-password-registerpage3"));
-    	password2.sendKeys("fqw12345SD"); 
+    	password2.sendKeys("**********"); 
     	
     	WebElement checkbox = driver.findElement(By.id("register-check-registerpage2"));
     	checkbox.click();
